@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="loginPage.css">
+    <!-- for bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!-- for icons fontawesome -->
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <title>Login</title>
+</head>
+
+<body>
+    <img src="ghayegh.jpg" alt="ghayegh">
+
+    <div id="parent">
+        <p id="p1">ورود به پل کاربری</p>
+
+        <div class="pad">
+            <div class="mb-3">
+                <div class="input-group">
+                    <input type="text" placeholder="نام کاربری" class="form-control" id="customUsername"aria-describedby="inputGroupPrepend" required>
+
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" id="inputGroupPrepend">
+                            <i class="far fa-user"></i>
+                        </span>
+                    </div>
+                    <div id="userFeedBack" class="invalid-feedback" style="text-align: right;">
+                        *الزامی
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="pad">
+            <div class="mb-3">
+                <div class="input-group">
+
+                    <input type="text" placeholder="رمز عبور" class="form-control" id="customPassword"aria-describedby="inputGroupPrepend" required>
+
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" id="inputGroupPrepend">
+                            <i class="fas fa-lock"></i>
+                        </span>
+                    </div>
+                    <div id="passFeedBack" class="invalid-feedback" style="text-align: right;">
+                        *الزامی
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <button id="loginButton" class="btn btn-primary" type="submit">ورود</button>
+
+        <p id="p2">حساب کاربری نداری؟ <a href=""> ثبت نام</a></p>
+    </div>
+
+    <!-- for use jquery and js-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="loginPage.js"></script>
+</body>
+
+</html>

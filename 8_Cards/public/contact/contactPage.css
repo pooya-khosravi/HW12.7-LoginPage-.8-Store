@@ -1,0 +1,31 @@
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(145, 96, 236) !important;
+}
+
+.navbar{
+    background-color: gray !important;
+}
+
+.nav-link:hover{
+    color: white !important;
+}
+
+.parent{
+    width: 100%;
+    height: auto;
+    border: solid 1px blue;
+}
+
+.parent div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    background-color: cadetblue;
+}

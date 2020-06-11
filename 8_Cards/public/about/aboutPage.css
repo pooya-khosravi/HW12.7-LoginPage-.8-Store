@@ -1,0 +1,29 @@
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: coral !important;
+}
+
+
+.navbar{
+    background-color: gray !important;
+}
+
+.nav-link:hover{
+    color: white !important;
+}
+
+
+h1{
+    background-color: red;
+    text-align: center;
+}
+
+p{
+    border: solid 1px black;
+    margin-top: 10px;
+}
